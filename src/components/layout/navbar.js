@@ -10,7 +10,7 @@ function Navigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/attraction"> 景點探索 </Link>
+            <Link to="/attractions"> 景點探索 </Link>
           </li>
           <li>熱門住宿</li>
           <li>最夯美食</li>

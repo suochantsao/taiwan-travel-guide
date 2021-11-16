@@ -1,10 +1,20 @@
-// import { Route, Switch } from "react-router-dom";
+// react-router-dom
+import { Route, Switch } from "react-router-dom";
+
+// Pages
+import Index from "@/pages/index.js";
+import Attraction from "@/pages/attraction.js";
 
 function App() {
   return (
-    <div className="App">
-      <p>hello</p>
-    </div>
+    <Switch>
+      <Route path="/" exact>
+        <Index />
+      </Route>
+      <Route path="/attractions">
+        <Attraction />
+      </Route>
+    </Switch>
   );
 }
 

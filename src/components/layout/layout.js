@@ -1,4 +1,4 @@
-import Navigation from "@/components/layout/navbar.js";
+import Navigation from "./navbar";
 
 function Layout(props) {
   return (

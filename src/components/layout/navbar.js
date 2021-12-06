@@ -12,10 +12,18 @@ function Navigation() {
           <li>
             <Link to="/attractions"> 景點探索 </Link>
           </li>
-          <li>熱門住宿</li>
-          <li>最夯美食</li>
-          <li>活動與展覽</li>
-          <li>登入 / 註冊</li>
+          <Link to="/stay">
+            <li>熱門住宿</li>
+          </Link>
+          <Link to="/foods">
+            <li>最夯美食</li>
+          </Link>
+          <Link to="exhibition">
+            <li>活動與展覽</li>
+          </Link>
+          <Link to="member">
+            <li>登入 / 註冊</li>
+          </Link>
         </ul>
       </nav>
     </header>

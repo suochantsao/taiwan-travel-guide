@@ -1,9 +1,12 @@
 // Router
 import { Link } from "react-router-dom";
 
+// CSS Modules
+import classes from "./navbar.module.css";
+
 function Navigation() {
   return (
-    <header>
+    <header className={classes.header}>
       <h1>
         <Link to="/"> WEB LOGO </Link>
       </h1>
